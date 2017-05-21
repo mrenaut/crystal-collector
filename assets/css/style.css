@@ -1,0 +1,64 @@
+body {
+	font-size: 17px;
+	font-family: arial;
+	background-color: black;
+	color: white;
+    line-height: 1.5;
+	padding: 0;
+	margin:0;
+}
+
+header {
+	padding: 15px;
+	background-color: white;
+	color: black;
+	text-align: center;	
+}
+
+
+.crystals {
+	height: 300px;
+	width: 200px;
+}
+
+#crystalRow {
+	margin-bottom: 100px;
+}
+
+#instructionsPlusWinsLosses, #scoresUserAndComputer {
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+}
+
+#startButton {
+	background-color: white;
+	color: black;
+	text-align: center;
+
+}
+
+#userScore {
+	background-color: white;
+	color: black;
+}
+
+#computerScore {
+	background-color: white;
+	color: black;
+
+}
+
+#winsLosses {
+	background-color: white;
+	color: black;
+}
+
+footer {
+
+	padding: 10px;
+	background-color: white;
+	color: steelblue;
+	text-align: center;	
+
+}

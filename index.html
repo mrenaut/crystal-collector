@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang = "us-en">
+
+<head>
+	<title>Crystal Game</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script> </script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<script type="text/javascript" src="assets/javascript/script.js"></script>
+	
+ 
+
+</head>
+
+<body>
+
+	<main>
+		<!--heading begin-->
+		<header>	
+				<h1>CRYSTAL COLLECTOR</h1>
+		</header>
+		<!--heading begin-->
+			<!--top row containing instructions and final score begin-->
+
+			<div class="row" id="instructionsPlusWinsLosses">
+				<div class="col-md-2">
+				</div>
+				<!--instructions begin-->
+				<div class="col-md-4">
+					<p>You will be given a reandom number at the start of the game.</p>
+					<p>There are four crystals below.  By clicing on a crystal you will add a specific amount of points to your total score.</p>
+					<p>You win the game by matching your total score to the random number selected by the computer. You lose the game if your total score goes above the random number.</p>
+					<p>The avlue of each crystal is hidden from you until you click on it.</p>
+					<p>Each time when the game starts, the game will change the falues of each crystal.</p>
+				</div>
+				<!--instructions end-->
+				<div class="col-md-1">
+				</div>
+				<!--final score section begin-->
+				<div class="col-md-3" id="winsLosses">			
+					  	<h1 id="winLoseMessage">You Won!</h1>
+					   	<p>Wins: </p>
+					   	<p>Losses: </p>	
+				</div>
+				<!--final score section end-->
+				<div class="col-md-2">
+				</div>			
+			</div>
+			<!--top row containing instructions and final score end-->
+			<!--start button begin-->	
+			<div class="row">
+				<div class="col-md-4">
+				</div>
+				<div class="col-md-4" Id="startButton">
+						<h1>START</h1>
+				</div>
+				<div class="col-md-4">
+				</div>
+					
+			</div>
+			<!--start button end-->	
+		
+			<div class="row" id="scoresUserAndComputer">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-3" id="computerScore">			
+					  	<h1>Computer Score: 0</h1>					   			
+				</div>
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-3" id="userScore">			
+					  	<h1>User Score: 0</h1>					   			
+				</div>
+				<div class="col-md-2">
+				</div>			
+			</div>
+
+		
+			<div class="row" id="crystalRow">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-2">
+					<button id="blueCrystal">
+						<img src="assets/images/blueCrystal.jpg" class="crystals">
+					</button>
+				</div>
+				
+				<div class="col-md-2">
+					<button id="yellowCrystal">
+						<img src="assets/images/yellowCrystal.jpg" class="crystals">
+					</button>
+				</div>
+				
+				<div class="col-md-2">
+					<button id="purpleCrystal">
+						<img src="assets/images/purpleCrystal.jpg" class="crystals">
+					</button>
+				</div>
+				
+				<div class="col-md-2">	
+					<button id="redCrystal">
+						<img src="assets/images/redCrystal.jpg" class="crystals">
+					</button>
+				</div>
+				<div class="col-md-2">
+				</div>
+
+			</div>
+		
+
+
+		<footer>
+		&copy; 2017 by Melissa Renaut	
+		</footer>
+
+
+		
+	</main>
+
+</body>
+</html>
