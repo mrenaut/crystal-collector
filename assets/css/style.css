@@ -1,11 +1,16 @@
 body {
 	font-size: 17px;
 	font-family: arial;
-	background-color: black;
+	background-image: url("crystalCaveBackground2.jpg");
+	background-repeat: 
 	color: white;
     line-height: 1.5;
 	padding: 0;
 	margin:0;
+}
+
+h1{
+	font-size: 25px;
 }
 
 header {
@@ -15,15 +20,12 @@ header {
 	text-align: center;	
 }
 
-
-.crystals {
-	height: 300px;
-	width: 200px;
+#instructions {
+	background-color: white;
+	color: black;
+	padding: 20px;
 }
 
-#crystalRow {
-	margin-bottom: 100px;
-}
 
 #instructionsPlusWinsLosses, #scoresUserAndComputer {
 	padding-bottom: 20px;
@@ -53,6 +55,17 @@ header {
 	background-color: white;
 	color: black;
 }
+
+
+.crystals {
+	height: 300px;
+	width: 200px;
+}
+
+#crystalRow {
+	margin-bottom: 100px;
+}
+
 
 footer {
 
