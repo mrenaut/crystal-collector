@@ -8,13 +8,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		
+	<!--personal style sheet-->		
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+	<!--jquery link-->	
 	<script
 	  src="https://code.jquery.com/jquery-3.2.1.min.js"
 	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 	  crossorigin="anonymous"></script>
+	<!--personal javascript file-->	
 	<script type="text/javascript" src="assets/javascript/script.js"></script>
 	
 </head>
@@ -44,10 +46,10 @@
 				<div class="col-md-1">
 				</div>
 				<!--final score section begin-->
-				<div class="col-md-3" id="winsLosses">			
+				<div class="col-md-3" id="winsLosses">					
 					  	<h1 id="winLoseMessage">Totals</h1>
-					   	<p>Wins: </p>
-					   	<p>Losses: </p>	
+					   	<p id="wins">Wins: </p>
+					   	<p id="losses">Losses: </p>	
 				</div>
 				<!--final score section end-->
 				<div class="col-md-2">
@@ -66,64 +68,74 @@
 					
 			</div>
 			<!--start button end-->	
-		
+
+			<!--scores row begin-->			
 			<div class="row" id="scoresUserAndComputer">
 				<div class="col-md-2">
 				</div>
+				<!--computer score div begin-->
 				<div class="col-md-3" id="computerScore">			
-					  	<h1>Computer Score: 0</h1>					   			
+					  	<h1>Computer Score: 0</h1>		   			
 				</div>
+				<!--computer score div end-->
 				<div class="col-md-1">
 				</div>
 				<div class="col-md-1">
 				</div>
+				<!--user score div begin-->
 				<div class="col-md-3" id="userScore">			
 					  	<h1>User Score: 0</h1>				   	
 				</div>
+				<!--computer score div end-->
 				<div class="col-md-2">
 				</div>			
 			</div>
-
+			<!--scores row end-->
 		
+			<!--crystals row begin-->		
 			<div class="row" id="crystalRow">
 				<div class="col-md-2">
 				</div>
+
+				<!--blue crystal-->	
 				<div class="col-md-2">
 					<button id="blueCrystal">
 						<img src="assets/images/blueCrystal.jpg" class="crystals">
 					</button>
 				</div>
-				
+
+				<!--yellow crystal-->
 				<div class="col-md-2">
 					<button id="yellowCrystal">
 						<img src="assets/images/yellowCrystal.jpg" class="crystals">
 					</button>
 				</div>
-				
+
+				<!--purple crystal-->
 				<div class="col-md-2">
 					<button id="purpleCrystal">
 						<img src="assets/images/purpleCrystal.jpg" class="crystals">
 					</button>
 				</div>
-				
+
+				<!--red crystal-->
 				<div class="col-md-2">	
 					<button id="redCrystal">
 						<img src="assets/images/redCrystal.jpg" class="crystals">
 					</button>
 				</div>
+
 				<div class="col-md-2">
 				</div>
 
 			</div>
-		
+			<!--crystals row end-->	
 
-
+		<!--footer-->	
 		<footer>
 		&copy; 2017 by Melissa Renaut	
 		</footer>
 
-
-		
 	</main>
 
 </body>
