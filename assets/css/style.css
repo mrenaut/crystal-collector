@@ -1,13 +1,13 @@
-body {
+main {
 	font-size: 17px;
 	font-family: arial;
 	background-image: url("../images/crystalCaveBackground2.jpg");
 	background-repeat: vertical;
+	background-size:cover;
 	color: white;
     line-height: 1.5;
 	padding: 0;
-	margin:0;
-	
+	margin:0;	
 }
 
 h1{
@@ -80,3 +80,4 @@ footer {
 	text-align: center;	
 
 }
+
