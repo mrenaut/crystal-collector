@@ -22,4 +22,10 @@ Each time when the game starts, the game will change the values of each crystal.
 SCREENSHOT FROM GAME
 <!--[rick and morty background with trivia instructions](/images/screenshot1.jpg)-->
 
-![](/assets/images/screenshot1.JPG)
+[Click here to go to the live link](https://mrenaut.github.io/crystal-collector/).
+
+
+SCREENSHOT FROM GAME
+<!--[rick and morty background with trivia instructions](/images/screenshot1.jpg)-->
+
+![](/assets/images/screenshot1.jpg)
